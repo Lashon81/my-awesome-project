@@ -1,6 +1,7 @@
 setProperty("WaterAppHeader", "color", "red");
+setProperty("subHeader", "color", "blue");
 console.log("hello");
-setProperty("WaterAppHeader", "background-color", "blue");
+setProperty("WaterAppHeader", "background-color", "");
 
 onEvent("esButton", "click", function(){
     console.log("clicked spanish.");
