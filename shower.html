@@ -11,25 +11,35 @@
 </head>
 
 <body>
-    <div class="maincontainer col-6 container border">
-        <h1 class="text-warning">Duck in Tub</h1>
-        <p class="text-primary">Another way to conserve water is to take shorter showers.</p>
-        <p class="text-primary">Try setting a timer to five minutes!</p>
+    <div class="maincontainer border"></div>
+    <h1 id="WaterAppHeader"> Water Conservation Tips</h1>
+    <p class="text-primary">Another way to conserve water is to take shorter showers.</p>
+    <p class="text-primary">Try setting a timer to five minutes!</p>
 
-        <div class="row">
-            <div class="col-9">
-                <img src="shower-duck.jpg" alt="Duck in tub">
+
+    <div class="row">
+        <div class="col-8">
+            <img id="shower-duck" class="img-fluid" src="shower-duck.jpg" alt="Duck in tub">
+
+                        <div class="col">
+                            <div class="text-danger">
+                                <p>Click on Timer</p>
+                                <img id="5timer" class="img-fluid float right" src="timer.png" alt="5 minute timer">
+                            </div>
+
+                            <div>
+                                <a href="index.html" class="btn col-2 btn-outline-danger">Home</a>
+                            </div>
+                        </div>
+                        <script src="helpers.js"></script>
+                        <script src="shower.js"></script>
+                    </div>
+                </div>
             </div>
-            <div class="text-primary col-3"><p>Click on Timer</p>
-                <img src="Timer.png" alt="Timer">
-            </div>
-        </div>
-        <div>
-            <a href="index.html" class="btn col-2 btn-outline-danger">Home</a>
         </div>
     </div>
-    <script src="helpers.js"></script>
-    <script src="shower.js"></script>
+
+
 </body>
 
 </html>

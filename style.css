@@ -1,1 +1,21 @@
-.maincontainer{max-width: 500px;}
+.maincontainer {
+    max-width: 500px;
+}
+
+.faucetImg {
+    left: 70%;
+    bottom: -70%;
+    width: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+/* for images that start off with opacity on */
+.opacity-on {
+    opacity: 1;
+}
+
+/* for images that start off with opacity off */
+.opacity-off {
+    opacity: 0;
+}

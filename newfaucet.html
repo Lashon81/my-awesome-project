@@ -13,10 +13,10 @@
 
 <body>
     <div class="maincontainer container border">
-        <h1 class="text-warning"></h1>
-        <p class="text-primary">Instead of buying dispoable wtaer bottles, use a refillable bottle. One use water
-            bottles
-            fill our land fills an dtrap valuable water.
+        <h1 id="WaterAppHeader"> Water Conservation Tips</h1>
+        <p id="subHeader"> Instead of buying disposable wtaer bottles, use a refillable bottle. One use water
+            bottles fill our land fills an dtrap valuable water. </p>
+
         <div class="row">
             <div class="col-2"></div>
             <div class="col-10">
@@ -25,19 +25,26 @@
 
 
             <div class="row">
-                <div class="col-4"></div>
-                <div class="col-4"><img class="img-fluid" src="water-Bottle.png" alt="water bottle"></div>
+                <div class="col-6"></div>
+                <div class="col-2"><img id="Water-Bottle" class="img-fluid" src="Water-Bottle.png" alt="water bottle">
+                </div>
 
-                <div class="col-4"><img class="img-fluid" src="Plastic-bottle-Recycle.png" alt="Recycle"></div>
+
+                <div class="col-2"><img id="plastic" class="img-fluid" src="plastic-bottle-recycle.png" alt="Recycle">
+                </div>
+                <div class="col-9"></div>
             </div>
-            <div class="row">
-                <div class="col-4"><img class="img-fluid" src="faucet.png" alt="faucet" alt="Recycle"></div>
-                <div class="col-8"></div>
+
+            <div class="position-relative d-inline-block text-start" style="width:280px;">
+                <img id="faucet" src="faucet.png" alt="Faucet" class="img-fluid" style="width: 90%; max-width: 220px;">
+                <img id="bottle-under-faucet" src="Water-bottle.png" alt="Water bottle"
+                    class="position-absolute faucetImg opacity-off">
             </div>
-            <a href="shower.html" class="btn col-2 btn-outline-danger">Next</a>
+
         </div>
-
+        <a href="shower.html" class="btn col-2 btn-outline-danger">Next</a>
     </div>
+
     <script src="helpers.js"></script>
     <script src="newfaucet.js"></script>
 </body>
