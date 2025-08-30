@@ -4,7 +4,7 @@ var language = getLang.get('lang');
 if (language == "es") {
     setText("WaterAppHeader", "consejos de Conservación del Agua");
     setText("subHeader", "En lugar de comprar botellas de agua desechables, usa una botella reutilizable. Las botellas de un solo uso llenan nuestros vertederos y atrapan agua valiosa. ");
-    setText("Elige la botella de agua correcta y luego haz clic en el grifo para rellenarla. ");
+    setText("subHeader", "Elige la botella de agua correcta y luego haz clic en el grifo para rellenarla. ");
 };
 
 
